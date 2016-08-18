@@ -1,0 +1,113 @@
+@import './_colors.scss';
+@import './mdcolors.scss';
+@import './_fonts.scss';
+
+html {
+  font-size: 63.5%;
+}
+
+body {
+  font-size: $font-default-size;
+  overflow-y: scroll;
+}
+
+.styleguide-color::before {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #E4E4E4;
+  color: #222222;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.45;
+  padding: 10px;
+  text-shadow: none;
+}
+
+.color-primary {
+  background: $color-primary;
+
+  &::before {
+    content: '$color-primary - HEX: #{$color-primary}';
+  }
+}
+
+.color-primary-active {
+  background: $color-primary-active;
+
+  &::before {
+    content: '$color-primary-active - #{$color-primary-active}';
+  }
+}
+
+.color-secondary {
+  background: $color-secondary;
+
+  &::before {
+    content: '$color-secondary - #{$color-secondary}';
+  }
+}
+
+.color-secondary-active {
+  background: $color-secondary-active;
+
+  &::before {
+    content: '$color-secondary-active - #{$color-secondary-active}';
+  }
+}
+
+.color-offer-primary {
+  background: $color-offer-primary;
+
+  &::before {
+    content: '$color-offer-primary - #{$color-offer-primary}';
+  }
+}
+
+.color-offer-primary-active {
+  background: $color-offer-primary-active;
+
+  &::before {
+    content: '$color-offer-primary-active - #{$color-offer-primary-active}';
+  }
+}
+
+.color-offer-secondary {
+  background: $color-offer-secondary;
+
+  &::before {
+    content: '$color-offer-secondary - #{$color-offer-secondary}';
+  }
+}
+
+.color-offer-secondary-active {
+  background: $color-offer-secondary-active;
+
+  &::before {
+    content: '$color-offer-secondary-active - #{$color-offer-secondary-active}';
+  }
+}
+
+.color-black {
+  background: $color-black;
+
+  &::before {
+    content: '$color-black - #{$color-black}';
+  }
+}
+
+.color-white {
+  background: $color-white;
+  border: 1px solid $color-black;
+
+  &::before {
+    content: '$color-white - #{$color-white}';
+  }
+}
+
+.color-gray-light {
+  background: $color-gray-light;
+
+  &::before {
+    content: '$color-gray-light - #{$color-gray-light}';
+  }
+}

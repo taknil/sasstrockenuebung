@@ -1,0 +1,29 @@
+$color-black: #000000 !default;
+$color-white: #FFFFFF !default;
+
+$color-gray-light: #E5E5E4 !default;
+$color-gray-medium: #CACACA !default;
+$color-gray-dark: #7A8394 !default;
+
+$color-primary: $color-black !default;
+$color-primary-active: $color-black !default;
+$color-secondary: $color-white !default;
+$color-secondary-active: $color-white !default;
+$color-offer-primary: $color-black !default;
+$color-offer-primary-active: $color-black !default;
+$color-offer-secondary: $color-white !default;
+$color-offer-secondary-active: $color-white !default;
+$color-text: $color-black !default;
+$color-text-active: $color-black !default;
+
+$color-success: #E6F2D6 !default;
+$color-success-text: #66A543 !default;
+$color-warning: #FCF8E5 !default;
+$color-warning-text: #E6BE00 !default;
+$color-error: #FFEBE1 !default;
+$color-error-text: #DF002E !default;
+
+$color-shadow: rgba(0, 0, 0, 0.15) !default;
+
+$gradient-light: linear-gradient(45deg, $color-gray-light, $color-white) !default;
+$gradient-dark: linear-gradient(45deg, $color-gray-dark, $color-gray-medium) !default;

@@ -1,0 +1,78 @@
+$sStaticImageUrlName	: imgdir;
+
+$f_giant		: 28px/34px Tahoma, Verdana, sans-serif;
+$fb_giant		: bold 28px/34px Tahoma, Verdana, sans-serif;
+$f_troll		: 25px/28px Tahoma, Verdana, sans-serif;
+$fb_troll		: bold 25px/28px Tahoma, Verdana, sans-serif;
+$f_vhuge         : 24px/27px Tahoma, Verdana, sans-serif;
+$fb_vhuge        : bold 24px/27px Tahoma, Verdana, sans-serif;
+$f_huge		: 18px/24px Tahoma, Verdana, sans-serif;
+$fb_huge		: bold 18px/24px Tahoma, Verdana, sans-serif;
+$f_nhuge		: 16px/24px Tahoma, Verdana, sans-serif;
+$fb_nhuge		: bold 16px/24px Tahoma, Verdana, sans-serif;
+$f_xxlarge		: 18px/21px Tahoma, Verdana, sans-serif;
+$fb_xxlarge	      : bold 18px/21px Tahoma, Verdana, sans-serif;
+$f_xlarge		: 17px/21px Tahoma, Verdana, sans-serif;
+$fb_xlarge		: bold 17px/21px Tahoma, Verdana, sans-serif;
+$f_slarge		: 16px/20px Tahoma, Verdana, sans-serif;
+$fb_slarge		: bold 16px/20px Tahoma, Verdana, sans-serif;
+$f_large		: 14px/17px Tahoma, Verdana, sans-serif;
+$fb_large		: bold 14px/17px Tahoma, Verdana, sans-serif;
+$f_buttonicon	: 15px/29px Tahoma, Verdana, sans-serif;
+$f_xslarge		: 15px/17px Tahoma, Verdana, sans-serif;
+$fb_xslarge	      : bold 15px/17px Tahoma, Verdana, sans-serif;
+$f_normal		: 13px/17px Tahoma, Verdana, sans-serif;
+$fb_normal		: bold 13px/17px Tahoma, Verdana, sans-serif;
+$f_middle		: 12px/14px Tahoma, Verdana, sans-serif;
+$fb_middle		: bold 12px/14px Tahoma, Verdana, sans-serif;
+$f_small		: 11px/13px Tahoma, Verdana, sans-serif;
+$fb_small		: bold 11px/13px Tahoma, Verdana, sans-serif;
+$f_mini		: 10px/13px Tahoma, Verdana, sans-serif;
+$fb_mini		: bold 10px/13px Tahoma, Verdana, sans-serif;
+
+$c_black		: #000000;
+$c_white		: #FFFFFF;
+
+$c_alpha		: rgba(0, 0, 0, 0.4);
+$c_alpha2		: rgba(255, 255, 255, 0.8);
+
+$c_lightgrey	: #EEEEEE; // changed
+$c_lightgrey2	: #F4F4F4;
+$c_lightgrey3	: #F6F6F6;
+$c_middlegrey	: #888888; // changed
+$c_middlegrey2	: #CCCCCC; // changed
+$c_darkgrey	: #555555; // changed
+$c_darkgrey2	: #333333; // new dark grey
+
+$c_green		: #82AA00; // used but not changed
+$c_darkgreen	: #668500; // used but not changed
+$c_lightgreen	: #a0d100;
+
+$c_orange		: #e66400; // used but not changed
+$c_lightorange	: #ff8426;
+
+$c_blue		: #00A0CB; // used but not changed
+$c_darkblue	: #0082a6; // used but not changed
+$c_lightblue	: #00bef2;
+
+$c_fb			: #3b5998;
+$c_lightfb		: #4b70bf;
+
+$c_tw			: #0094c2;
+$c_lighttw		: #00b2e8;
+
+$c_red			: #BB0000;
+
+$r_corners		: "-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;"; 
+
+
+//pictures
+$imgdir: "https://s.gravis.de/w/gra_img/";
+$imgdirs: "https://s.gravis.de/w/gra_img/s";
+$imgdiro: "https://s.gravis.de/w/gra_img/o";
+
+
+//calculated images
+@import '_calculated-variables.scss';
+
+		
